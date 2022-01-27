@@ -19,60 +19,78 @@
             }
         }
     };
-    </script>
+</script>
+
+<script>
+    export let posts
+    const dateSortedPosts = posts.slice().sort((post1, post2) => {
+        return new Date(post2.metadata.date) - new Date(post1.metadata.date)
+    }) 
+</script>
+<body>
+   <!-- {JSON.stringify(posts)} -->
+    {#each dateSortedPosts as {path, metadata: {title, tags, date} }}
+        <article>
+        <h1><a class="title" href={`/blog/${path.replace(".md","").replace(".svx", "")}`}>{title}</a></h1>
+        <p class="date">{new Date(date).toDateString()}</p>
+        <p>
+            {#each tags as tag}
+                <a class="tag" href={`/tags/${tag}`}>#{tag} </a>
+            {/each}
+        </p>
+        </article>
+    {/each}
     
-    <script>
-        export let posts
-        const dateSortedPosts = posts.slice().sort((post1, post2) => {
-            return new Date(post2.metadata.date) - new Date(post1.metadata.date)
-        }) 
-    </script>
-    
-    <h1>Blog</h1>
-    
-    <!-- {JSON.stringify(posts)} -->
-    
-    <ul>
-        {#each dateSortedPosts as {path, metadata: {title, tags, date} }}
-            <li>
-                <a href={`/blog/${path.replace(".md","").replace(".svx", "")}`}>{title}</a>
-                <p class="date">{new Date(date).toDateString()}</p>
-                <p>
-                    {#each tags as tag}
-                        <a class="tag" href={`/tags/${tag}`}>#{tag} </a>
-                    {/each}
-                </p>
-            </li>          
-        {/each}
-    </ul>
-
-    <style>
-    p {
-        margin: 0;
-        font-size: 0.8rem;
-    }
-    li {
-        margin-bottom: 20px;
-    }
+</body>
 
 
-    .tag {
-        text-decoration: none;
-        margin-right: 10px;
-        color: #555;
-    }
+<style>
 
-    .tag:hover {
-        color: rgb(255, 81, 0)
-    }
+body {
+    margin: 1em 2em 0 1em;
+    font-size: 1.1rem;
 
-    .date {
-        font-size: 0.7rem;
-        color: grey
+}
 
-    }
+a, h2 {
+    color: #555;
+}
+
+h2 {
+    margin: .8rem 0 .2rem 0 
+}
+
+h1 {
+    color: black;
+    margin: .8rem 0 .2rem 0 
+}
+
+p {
+    margin: 0em;
+    font-size: 1rem;
+}
+
+.title  {
+    text-decoration: none;
+}
+
+.tag {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #555;
+}
+
+.tag:hover {
+    color: coral;
+}
+
+.date {
+    font-size: 0.7rem;
+    color: grey
+
+}
 
 
-    </style>
+</style>
     
     

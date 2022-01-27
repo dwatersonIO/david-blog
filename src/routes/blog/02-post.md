@@ -1,11 +1,22 @@
 ---
-title: Todo app I use
+title: How to use git
 tags: 
     - tech
-    - personal
-date: 2021-06-21
+    - git
+date: 2022-01-20
 ---
 
 # {title}
 
-This my second post
+## First time
+
+git add .  
+git commit -m "my changes"  
+git remote add origin https://github.com/dwatersonIO/repo-name.git  
+git push -u origin master  
+
+## To later update
+
+git add .  
+git commit -m "my other changes"  
+git push  

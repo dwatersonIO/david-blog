@@ -1,10 +1,23 @@
 ---
-title: To todo apps
+title: 6 important CSS concepts 
 tags: 
+    - css
     - tech
-date: 2021-06-20
+date: 2022-01-28
 ---
 
 # {title}
 
-This my first post
+## Margins
+This is the order:  Margin: top right bottom left
+
+## Use inheritance
+`Code goes here`
+
+<style>
+
+h1 {
+    color: red
+}
+
+</style>
