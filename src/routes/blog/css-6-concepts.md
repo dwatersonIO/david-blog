@@ -7,12 +7,13 @@ tags:
 date: 2022-01-28
 ---
 
-# {title}
+## {title}
+#### {summary}
 
-## Margins
+### Margins
 This is the order:  Margin: top right bottom left
 
-## Use inheritance
+### Use inheritance
 `Code goes here`
 
 <style>

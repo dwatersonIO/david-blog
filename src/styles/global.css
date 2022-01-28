@@ -5,6 +5,7 @@
     --text-col: #555;
     --head-col:#3d5a80;
     --high-col: #ee6c4d;
+    box-sizing: border-box;
     margin: 0 0 0 0; 
 
 }
