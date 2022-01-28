@@ -1,8 +1,11 @@
 ---
-title: Where invest money
+title: Django using HTMX
+summary: Key resources to build projects 
 tags: 
-    - personal
-date: 2022-05-25
+    - tech
+    - django
+    - htmx
+date: 2022-01-28
 ---
 
 # {title}

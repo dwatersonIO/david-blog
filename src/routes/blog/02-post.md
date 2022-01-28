@@ -1,5 +1,6 @@
 ---
 title: How to use git
+summary: Push new projects and update existing ones
 tags: 
     - tech
     - git

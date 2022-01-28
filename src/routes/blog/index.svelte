@@ -22,6 +22,8 @@
 </script>
 
 <script>
+import About from "../about.svelte"
+
     export let posts
     const dateSortedPosts = posts.slice().sort((post1, post2) => {
         return new Date(post2.metadata.date) - new Date(post1.metadata.date)
@@ -29,15 +31,17 @@
 </script>
 <body>
    <!-- {JSON.stringify(posts)} -->
-    {#each dateSortedPosts as {path, metadata: {title, tags, date} }}
+    {#each dateSortedPosts as {path, metadata: {title, summary, tags, date} }}
         <article>
         <h1><a class="title" href={`/blog/${path.replace(".md","").replace(".svx", "")}`}>{title}</a></h1>
-        <p class="date">{new Date(date).toDateString()}</p>
-        <p>
+         <p class="date">{new Date(date).toDateString()}</p>
+         <p>
             {#each tags as tag}
                 <a class="tag" href={`/tags/${tag}`}>#{tag} </a>
             {/each}
         </p>
+        <h4>{summary}</h4>
+        <h6><a href={`/blog/${path.replace(".md","").replace(".svx", "")}`}>Read More...</a></h6>
         </article>
     {/each}
     

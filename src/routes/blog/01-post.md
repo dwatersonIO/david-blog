@@ -1,5 +1,6 @@
 ---
-title: 6 important CSS concepts 
+title: 6 important CSS concepts
+summary: Learn concepts of inheritance, specificy, layout and three others
 tags: 
     - css
     - tech
