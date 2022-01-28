@@ -1,33 +1,48 @@
 <nav>
     <ul>
         <li>
-            <a href="/">Home</a>
+            <a class = "nav-item" href="/">home</a>
         </li>
         <li>
-            <a href="/blog">Blog</a>
+            <a class = "nav-item" href="/blog">blog</a>
         </li>
         <li>
-            <a href="/about">About</a>
+            <a class = "nav-item" href="/about">about</a>
         </li>
     </ul>
 </nav>
 
 <style>
+
+
 ul {
     display: flex;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 0 0 0 0;
-    padding: 0;
+    padding: .3rem;
     list-style: none;
-
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#293241;
+    border-radius: 10px;
 }
 
 li {
-    margin-right: 10px;
-    
+    margin-right: 1rem;
+    margin-left: .5rem;
 }
 
-a {
+.nav-item {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--high-col);
     text-decoration: none;
+    margin-right: 1rem;
 }
+
+.nav-item:hover {
+    color: var(--head-col);
+}
+
 </style>
