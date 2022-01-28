@@ -17,8 +17,4 @@ This is the order:  Margin: top right bottom left
 
 <style>
 
-h1 {
-    color: red
-}
-
 </style>

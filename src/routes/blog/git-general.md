@@ -6,10 +6,11 @@ tags:
     - git
 date: 2022-01-20
 ---
-
-# {title}
-
-## First time
+  
+   
+## {title}
+#### {summary}
+### First time
 
 - git add .  
 - git commit -m "my changes"  
@@ -17,7 +18,7 @@ date: 2022-01-20
 `(https://github.com/GitHub username/GitHuB repo-name.git)`
 - git push -u origin master  
 
-## To later update
+### To later update
 
 - git add .  
 - git commit -m "my other changes"  

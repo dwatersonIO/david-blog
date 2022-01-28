@@ -29,7 +29,7 @@ import About from "../about.svelte"
         return new Date(post2.metadata.date) - new Date(post1.metadata.date)
     }) 
 </script>
-<body>
+
    <!-- {JSON.stringify(posts)} -->
     {#each dateSortedPosts as {path, metadata: {title, summary, tags, date} }}
         <article>
@@ -46,7 +46,6 @@ import About from "../about.svelte"
         </article>
     {/each}
     
-</body>
 
 
 <style>

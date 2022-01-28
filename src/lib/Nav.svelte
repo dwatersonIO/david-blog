@@ -19,18 +19,15 @@ ul {
     display: flex;
     font-size: 1.4em;
     margin: 0 0 0 0;
-    padding: .3rem;
+    padding: 0 0 0 0rem;
     list-style: none;
     background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#293241;
-    border-radius: 10px;
+
 }
 
 li {
     margin-right: 1rem;
-    margin-left: .5rem;
+    margin-left: 0rem;
 }
 
 .nav-item {
