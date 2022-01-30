@@ -6,9 +6,10 @@ tags:
     - tech
 date: 2022-01-28
 ---
+<article>
 
-## {title}
-#### {summary}
+# {title}
+## {summary}
 
 ### Margins
 This is the order:  Margin: top right bottom left
@@ -16,6 +17,5 @@ This is the order:  Margin: top right bottom left
 ### Use inheritance
 `Code goes here`
 
-<style>
+</article>
 
-</style>

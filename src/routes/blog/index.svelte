@@ -39,33 +39,27 @@ import About from "../about.svelte"
                 <a class="tag high-col" href={`/tags/${tag}`}>#{tag} </a>
             {/each}
         </span>
-        <h4 class="text-col">{summary}</h4>
+        <h2 class="text-col">{summary}</h2>
         <div>
         <h6 ><a class="high-col" href={`/blog/${path.replace(".md","").replace(".svx", "")}`}>Read More...</a></h6>
         </div>
         </article>
     {/each}
     
-
-
 <style>
-
 
 .tag {
     text-decoration: none;
-    margin-right: 10px;
-    font-size: 1.1rem;
+    margin: .2em .2em;
+    font-size: var(--p-font);
 }
-
 .tag:hover {
     color: var(--head-col)
 }
-
 .date {
     font-size: 0.7rem;
     color: grey
 }
-
 
 </style>
     

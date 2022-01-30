@@ -7,9 +7,10 @@ tags:
 date: 2022-01-20
 ---
   
+<article>
    
-## {title}
-#### {summary}
+# {title}
+## {summary}
 ### First time
 
 - git add .  
@@ -23,3 +24,5 @@ date: 2022-01-20
 - git add .  
 - git commit -m "my other changes"  
 - git push  
+
+</article>

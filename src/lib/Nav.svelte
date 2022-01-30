@@ -18,19 +18,17 @@
 ul {
     display: flex;
     font-size: 1.4em;
-    margin: 0 0 0 0;
-    padding: 0 0 .4rem 0rem;
+    padding: 1em 1em 1em .2em;
     list-style: none;
-    background-color: white;
-
-}
-
-li {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    background-color: #dddcdce0;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     margin-right: 1rem;
-    margin-left: 0rem;
+    margin-left: -.4rem;
+
 }
+
+
 
 .nav-item {
     font-size: 2.2rem;
