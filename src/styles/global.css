@@ -3,13 +3,14 @@
 :root {
     font-family: 'Roboto', sans-serif;
     background-color: #dddcdce0;
+    font-size: 16px;
     --text-col: #555;
     --head-col:#3d5a80;
     --high-col: #ee6c4d;
-    --h1-font: 1.6rem;
-    --h2-font: 1.1rem;
+    --h1-font: 1.4rem;
+    --h2-font: 1rem;
     --h3-font: .8rem;
-    --h4-font: .5rem;
+    --h4-font: .4rem;
     --p-font: 1rem;
     --p-line-height: 20px;
 
@@ -89,3 +90,14 @@ p {
     margin: 0em;
 }    
 
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 0 0 0
+  }

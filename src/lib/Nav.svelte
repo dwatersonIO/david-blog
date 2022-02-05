@@ -9,6 +9,18 @@
         <li>
             <a class = "nav-item" href="/about">about</a>
         </li>
+        <li>
+            <a class = "nav-item" href="/game">game</a>
+        </li>
+        <li>
+            <a class = "nav-item" href="/quiz">quiz</a>
+        </li>
+        <li>
+            <a class = "nav-item" href="/play">play</a>
+        </li>
+        <li>
+            <a class = "nav-item" href="/mdn">mdn-tutorial</a>
+        </li>
     </ul>
 </nav>
 
@@ -17,7 +29,7 @@
 
 ul {
     display: flex;
-    font-size: 1.4em;
+    font-size: 1em;
     padding: 1em 1em 1em .2em;
     list-style: none;
     background-color: #dddcdce0;
@@ -31,7 +43,7 @@ ul {
 
 
 .nav-item {
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--high-col);
     text-decoration: none;

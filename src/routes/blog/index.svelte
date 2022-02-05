@@ -30,6 +30,8 @@ import About from "../about.svelte"
     }) 
 </script>
 
+
+<div class="grid-container">
    <!-- {JSON.stringify(posts)} -->
     {#each dateSortedPosts as {path, metadata: {title, summary, tags, date} }}
         <article>
@@ -45,7 +47,8 @@ import About from "../about.svelte"
         </div>
         </article>
     {/each}
-    
+</div> 
+  
 <style>
 
 .tag {

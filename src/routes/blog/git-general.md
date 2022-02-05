@@ -18,7 +18,8 @@ git add .
 git commit -m "my changes"  
 at this point make sure have created new repo on GitHub
 git remote add origin *https://github.com/github username/repo-name.git*  
-**Note:** In this case origin is just term used by convention to represent the remote location
+**Note:** In this case origin is just term used by convention to represent the remote location.  
+If you want to check what current orgin is type: git remote -v.
 git push -u origin master  
 
 ### To later update
