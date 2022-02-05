@@ -1,5 +1,5 @@
 <script>
-    import Board from "./Board.svelte"
+
     let name = "Mastermind"
     let dummy = 0
     let startBoard = [
