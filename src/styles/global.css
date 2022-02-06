@@ -94,8 +94,8 @@ p {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
-    padding: 1em; 
+    grid-gap: .8rem;
+    padding: .8rem; 
     width: 100%;
     background-color: black;
     border-radius: 10px;
