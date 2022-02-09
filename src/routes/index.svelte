@@ -1,28 +1,13 @@
 
 <div class="card-parent">
     <div class="card">
-        <img 
-            class = "card-bg"
-            src = "https://cdn.pixabay.com/photo/2016/09/05/15/03/candle-1646765_960_720.jpg"
-            alt = ""
-        >
         <div class="card-text">Language</div>
     </div>
     <div class="card">
-        <img 
-        class = "card-bg"
-        src= "https://cdn.pixabay.com/photo/2018/09/16/23/48/tech-3682674_960_720.jpg"
-        alt=""
-        >
         <div class="card-text">Tech</div>
     </div>
     <div class="card">
-        <img 
-        class = "card-bg"
-        src= "https://images.pexels.com/photos/748626/pexels-photo-748626.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-        alt=""
-        >
-        <div class="card-text">Other</div>
+       <div class="card-text">Other</div>
     </div>
 </div>
 
@@ -71,20 +56,12 @@
     width: 100px;
     overflow: hidden;
     position: relative;
-}
-
-.card-bg {
-  opacity: .9;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
+    background-color: rgb(94, 91, 91);
 }
 
 .card-text {
     text-align: center;
-    color: white;
+    color: rgb(214, 52, 52);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     z-index: 1;
