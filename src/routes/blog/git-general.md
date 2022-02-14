@@ -14,15 +14,19 @@ date: 2022-01-20
 
 ### First time
 
-git add .  
-git commit -m "my changes"  
-at this point make sure have created new repo on GitHub
-git remote add origin *https://github.com/github username/repo-name.git*  
-**Note:** In this case origin is just term used by convention to represent the remote location.  
-If you want to check what current orgin is type: git remote -v.
-git push -u origin master  
+1. git init   
+2. git add .  
+3. git commit -m "my changes"  
+4. git branch -M main   
 
-### To later update
+at this point make sure have created new repo on GitHub    
+
+5. git remote add origin *https://github.com/github username/repo-name.git*  
+**Note:**  In this case origin is just term used by convention to represent the remote location.  
+If you want to check what current orgin is type: git remote -v.
+6. git push -u origin main  
+
+### To update later
 
 git add .  
 git commit -m "my other changes"  

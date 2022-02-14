@@ -1,6 +1,7 @@
 <script>
 
-    export let questions = [];
+export let questions = [];
+export let questionText = '';
 
     let buttonSuccess = false
     
@@ -30,7 +31,7 @@
     </script>
     
     
-    <h4>Select the capital of Italy</h4>
+    <h4>{questionText}</h4>
     
     <div class="grid-container">  
         <div>      

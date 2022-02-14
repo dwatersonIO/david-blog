@@ -1,10 +1,12 @@
 <script>
 
-    export let myList =[]
+export let myList =[]
+
+export let textitem = ""
+
 
 </script>
 
-<!-- <p>{myList[0].firstname}</p> -->
-
-
+<p>{textitem}</p>
 <p>{myList.firstname}, {myList.surname}</p>
+<p>{myList.likes.col}, {myList.likes.car}</p>

@@ -14,9 +14,8 @@
     export const load = async({ url, params }) => {
         const posts = await Promise.all(body);
         const tag = params.tag;
-        console.log(params.tag)
 
-        const filteredPosts = posts.filter((post) => {
+        const filteredPosts = posts.filter((post.tags) => {
             return post.metadata.tags.includes(tag);
         });
 

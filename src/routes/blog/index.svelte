@@ -27,11 +27,12 @@ import About from "../about.svelte"
     export let posts
     const dateSortedPosts = posts.slice().sort((post1, post2) => {
         return new Date(post2.metadata.date) - new Date(post1.metadata.date)
-    }) 
+    })
 </script>
 
 
 <div class="grid-container">
+
    <!-- {JSON.stringify(posts)} -->
     {#each dateSortedPosts as {path, metadata: {title, summary, tags, date} }}
         <article>
@@ -62,6 +63,10 @@ import About from "../about.svelte"
 .date {
     font-size: 0.7rem;
     color: grey
+}
+
+.tag-container {
+
 }
 
 </style>
