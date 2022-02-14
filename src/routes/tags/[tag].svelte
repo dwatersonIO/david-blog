@@ -15,7 +15,7 @@
         const posts = await Promise.all(body);
         const tag = params.tag;
 
-        const filteredPosts = posts.filter((post.tags) => {
+        const filteredPosts = posts.filter((post) => {
             return post.metadata.tags.includes(tag);
         });
 
