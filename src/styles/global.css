@@ -93,7 +93,7 @@ p {
 .grid-container {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: .8rem;
     padding: .8rem; 
     width: 100%;
